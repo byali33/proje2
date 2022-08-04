@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.header {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.logo h1 {
+    font-size: 32px;
+    margin-left: 110px;
+    cursor: pointer;
+
+}
+
+.logo span {
+    color: red;
+}
+
+.list ul li {
+    display: inline-block;
+    margin: 0 28px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+
+}
+
+.list ul li a:hover {
+    color: #f9004d;
+}
+
+.btn button {
+    background-color: #f9004d;
+    padding: 10px 25px;
+    margin-right: 120px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+
+
+}
+
+.btn button:hover {
+    transform: scale(1.2);
+}
+
+.portfolio {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+
+.portfolio h1 {
+    font-size: 72px;
+    margin-top: 10px;
+}
+
+.portfolio h1 span {
+    color: #f9004d;
+}
+
+.portfolio h3 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.portfolio h2 {
+    margin-top: 20px;
+}
+
+.portfolio form input:first-child {
+    border: 2px solid #f9004d;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 50px;
+    width: 370px;
+
+
+}
+
+.portfolio form input:last-child {
+    color: white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: -130px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+}
+
+/* About Me */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #191919;
+    color: white;
+    height: 1350px;
+}
+
+.about .img img {
+    margin-top: 700px;
+    width: 430px;
+    margin-left: 140px;
+}
+
+.about__me {
+    margin: 400px 100px 0px 80px;
+
+}
+
+.about__me h1 {
+    font-size: 72px;
+    margin-top: 250px;
+}
+
+.about__me h3 {
+    margin: 30px 0;
+    letter-spacing: 2px;
+
+}
+
+.about__me h3 span {
+    color: #f9004d;
+}
+
+.about__me p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #fcfc;
+
+}
+
+.about__me button {
+    outline: none;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #f9004d;
+    border-radius: 30px;
+    padding: 13px 30px;
+    margin-top: 60px;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+.about__me button:hover {
+    background-color: #000;
+    border: 2px solid #f9004d;
+}
+
+/* Our Service */
+
+.main {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main h1 {
+    position: absolute;
+    margin-top: -300px;
+    font-size: 72px;
+    color: white;
+
+}
+
+.main div {
+    width: 330px;
+    height: 370px;
+    background-color: #191919;
+    margin: 30px 18px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 250px;
+
+}
+
+.main div i {
+    color: #f9004d;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main div p {
+    color: #fcfc;
+    line-height: 25px;
+
+    padding: 10px 40px;
+}
+
+.main div button {
+    padding: 12px 28px;
+    color: white;
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.main div button:hover {
+    background-color: #000;
+    border: 2px solid #f9004d;
+}
+
+/* footer */
+.footer {
+    height: 100vh;
+    position: relative;
+
+}
+
+.f__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #191919;
+
+    margin-top: 100px;
+}
+
+.f__top h2 {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+
+
+
+}
+
+.f__top button {
+    padding: 13px 30px;
+    color: white;
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+    font-size: 16px;
+    margin-top: 80px;
+
+}
+
+.f__top button:hover {
+    background-color: #000;
+    border: 2px solid #f9004d;
+}
+
+.f__bottom {
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+
+.f__bottom h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.f__bottom p{
+    color: white;
+   position: relative;
+    font-size: 17px;
+    line-height: 26px;
+    margin: 5px 450px 10px 450px;
+    text-align: center;
+
+}
+.social i{
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .4s;
+    margin: 10px;
+    background-color:#f9004d;
+    border-radius: 50%;
+   
+}
+
+.social i:hover{
+    transform: scale(2.0);
+}
+
+.f__bottom span{
+    position: absolute;
+    color:#f9004d;
+    bottom: -40px;
+    font-size: 12px;
+}
